@@ -46,9 +46,6 @@ F::=+|
 A::=91|90|93|92|102|1|2|4|0
 T::=7|8|9
 U::=1|2|3|4|5|6|7|8|9''')
-defs6=('''S::=12|33|8|8|*|8|N
-N::=0|9M
-M::=a|b|c|d''')
 
 from main import ParseAndGenerate
 def printGeneratedLanguage(grammer,limit=10):
